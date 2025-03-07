@@ -345,11 +345,14 @@ while loop:
         if message is None:
             clear = True
             countdown -= 1
-            pygame.draw.rect(screen, BLACK, [CENTER_X - 150, 180, 300, 150], border_radius=10)
-            screen.blit(NO_CAN_BUS_R, (CENTER_X - 140, CENTER_Y - 10))
+            SHUTDOWN_RECT = (calc(WIDTH, 38), calc(HEIGHT, 30))
+            SHUTDOWN_RECT_XY = (CENTER_X - SHUTDOWN_RECT[0] / 2, CENTER_Y - SHUTDOWN_RECT[1] / 2)
+            pygame.draw.rect(screen, BLACK, [SHUTDOWN_RECT_XY, SHUTDOWN_RECT], border_radius=10)
+            screen.blit(NO_CAN_BUS_R, (CENTER_X - calc(WIDTH, 18), CENTER_Y - calc(HEIGHT, 5)))
             shutdown = FONT_1.render("Shutting down in: " + str(countdown) + " s", True, WHITE, BLACK)
-            screen.blit(shutdown, (CENTER_X - 140, CENTER_Y + 15))
+            screen.blit(shutdown, (CENTER_X - calc(WIDTH, 18), CENTER_Y))
             pygame.display.flip()
+            time.sleep(1)
             if countdown == 0:
                 power_off = True
                 break
