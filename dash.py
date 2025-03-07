@@ -352,7 +352,6 @@ while loop:
             shutdown = FONT_1.render("Shutting down in: " + str(countdown) + " s", True, WHITE, BLACK)
             screen.blit(shutdown, (CENTER_X - calc(WIDTH, 18), CENTER_Y))
             pygame.display.flip()
-            time.sleep(1)
             if countdown == 0:
                 power_off = True
                 break
