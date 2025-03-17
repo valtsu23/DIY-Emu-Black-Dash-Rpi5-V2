@@ -1,6 +1,6 @@
 # Raspberry pi 5 version 2
 # Support for different screen sizes
-# Shift light uses Adafruit_Blinka_Raspberry_Pi5_Neopixel lirary
+# Shift light uses Adafruit_Blinka_Raspberry_Pi5_Neopixel library
 
 import pygame
 import time
