@@ -9,6 +9,7 @@ This version only works on Raspberry pi 5 and supports multiple screen resolutio
 ### Version history
 
 ### To do
+- Update pictures
 - More testing
 - SMD pcb for sale (maybe some day)
 
