@@ -2,7 +2,7 @@
 
 ![Working Dash](https://github.com/valtsu23/Pictures/blob/main/DIY-Emu-Black-Dash/IMG_20240612_141538698.jpg)
 
-Raspberry pi based digital dash working with Ecumaster Emu Black. 
+Raspberry Pi based digital dash working with Ecumaster Emu Black. 
 Based on https://github.com/valtsu23/DIY-Emu-Black-Dash.
 This version only works on Raspberry pi 5 and supports multiple screen resolutions
 
