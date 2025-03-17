@@ -15,7 +15,7 @@ This version only works on Raspberry Pi 5 and supports multiple screen resolutio
 
 ### Additional data
   - [Video](https://youtu.be/x8BvJFvcHbc) 
-  - [Raspberry Pi setup guide](https://drive.google.com/file/d/1KZesWHl7KMY-lIX4NdqELxCj08oUjc0y/view?usp=sharing)
+  - [Raspberry Pi 5 setup guide](https://drive.google.com/file/d/1I3_qu0iXsNpiGuRe7i7J77W4oreEQuEp/view?usp=sharing)
   - [Case and pcb files](https://drive.google.com/file/d/1F2OR0nffseqO3x1aVwaf4AkE6jhCyLvB/view?usp=sharing) (Used software: FreeCAD and Fusion 360)
   - [Pcb schematic in pdf](https://drive.google.com/file/d/1KawKwaSzzWXQF_xuIObFZ1UPyJIFHP33/view?usp=drive_link)
 
