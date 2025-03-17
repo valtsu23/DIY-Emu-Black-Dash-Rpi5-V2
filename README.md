@@ -103,7 +103,7 @@ I think touchscreen should work with most of the displays. Also the screen brigh
 #### From www.ebay.com
   - 5pin JST-SM connector pair
 
-### Pictures with Raspberry Pi 4 and makerplane Display
+### Pictures with Raspberry Pi 4, DS3231 (not needed) and makerplane Display
 ![Alt PCB](https://github.com/valtsu23/Pictures/blob/main/DIY-Emu-Black-Dash/IMG_20240528_233423409.jpg)
 
 ![Alt Inside](https://github.com/valtsu23/Pictures/blob/main/DIY-Emu-Black-Dash/IMG_20240528_234437181.jpg)
