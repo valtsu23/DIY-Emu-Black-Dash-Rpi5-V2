@@ -35,7 +35,7 @@ def action(rpm, STEP, END, br):
     # Blinker
     if rpm > END + STEP:
         if t1 + BLINK < time.monotonic():
-            pixels.fill((0, br, 0))
+            pixels.fill((br, 0, br))
         if t1 + BLINK * 2 < time.monotonic():
             pixels.fill((0, 0, 0))
             t1 = time.monotonic()
