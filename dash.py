@@ -36,7 +36,7 @@ if TEST_MODE is False:
     backlight.start(70)
 else:
     screen = pygame.display.set_mode(SIZE)
-    PATH = "G:\Oma Drive\Raspberry_Pi\EMU_display_mcp\Raspberry_pi_5_v2/"
+    PATH = "/home/your_user_name/Dash/"
 
 # Read needed files
 units_memory = open(PATH + "units_memory.txt", "r")
@@ -385,7 +385,6 @@ while loop:
         right_blinker = bit_list_3[1]
         left_blinker = bit_list_3[2]
         raw_fuel_level = message[1]
-        print(raw_fuel_level)
         out_temp = message[2]
         # Fuel level averaging
         if raw_fuel_level > FUEL_MAX:
