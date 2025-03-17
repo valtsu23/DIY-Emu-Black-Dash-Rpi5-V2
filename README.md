@@ -67,7 +67,7 @@ I think touchscreen should work with most of the displays. Also the screen brigh
 - M4 nut 2pcs
 
 ### Parts for PCB
-#### From www.partco.fi
+#### From www.partco.fi/en
   - MCP3002-I/P
   - 3A diode 
   - 1A diode 2pcs
