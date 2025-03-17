@@ -4,7 +4,7 @@
 
 Raspberry Pi based digital dash working with Ecumaster Emu Black. 
 Based on https://github.com/valtsu23/DIY-Emu-Black-Dash.
-This version only works on Raspberry pi 5 and supports multiple screen resolutions
+This version only works on Raspberry Pi 5 and supports multiple screen resolutions
 
 ### Version history
 
@@ -29,7 +29,7 @@ This version only works on Raspberry pi 5 and supports multiple screen resolutio
 - DIY PCB inside the enclosure
 
 ### Hardware features
-Raspberry Pi 5 handles the communicatin with all the hardware via SPI and I2C. Can bus communication with MCP2515, ADC (MCP3002) reads light sensor values and Raspberry Pi adjusts screen brightness based on ambient light. On board RTC to keep the clock in time. Neopixels for shiftlight. 12v to 5v DC-DC converter on board. Device needs switched 12V and continous 12v from battery to work correctly. Continous power is connected to a relay on PCB. Switched power wakes up the device and Raspberry pi starts booting and relay turns on. When Can Bus stream is lost Raspberry pi automatically starts shutdown process. After shutdown the relay turns off and cuts power from the device. The device doesn't consume any power after shutdown. Small button as a failsafe if Raspberry Pi crashes (pressing thins buttons turns relay off). 
+Raspberry Pi 5 handles the communicatin with all the hardware via SPI and I2C. Can bus communication with MCP2515, ADC (MCP3002) reads light sensor values and Raspberry Pi adjusts screen brightness based on ambient light. On board RTC to keep the clock in time. Neopixels for shiftlight. 12v to 5v DC-DC converter on board. Device needs switched 12V and continous 12v from battery to work correctly. Continous power is connected to a relay on PCB. Switched power wakes up the device and Raspberry pi starts booting and relay turns on. When Can Bus stream is lost Raspberry Pi automatically starts shutdown process. After shutdown the relay turns off and cuts power from the device. The device doesn't consume any power after shutdown. Small button as a failsafe if Raspberry Pi crashes (pressing thins buttons turns relay off). 
 
 ### Support for different screens
 Basically any hdmi screen can be used, but aspect ratio should be close to 16 : 9. Tested on these resolutions: 1920x1080, 1280x720, 800x480.  
